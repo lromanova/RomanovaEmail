@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">RomanovaEmail</string>
+    <string name="tip_name">Имя</string>
+    <string name="button_ok">ОК</string>
+    <string name="button_clear">Очистить</string>
+    <string name="view_name">Введите ваше имя</string>
+    <string name="view_email">Электронный адрес</string>
+    <string name="view_head">Подписка</string>
+</resources>
