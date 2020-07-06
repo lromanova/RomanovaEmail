@@ -6,4 +6,8 @@
     <string name="view_name">Введите ваше имя</string>
     <string name="view_email">Электронный адрес</string>
     <string name="view_head">Подписка</string>
+    <string name="empty_name">Введите ваше имя для оформления подписки</string>
+    <string name="empty_mil">Введите ваш Электронный адрес для оформления подписки</string>
+    <string name="res_message">Подписка успешно оформлена для пользователя </string>
+    <string name="res_message_mail">электронный адрес</string>
 </resources>

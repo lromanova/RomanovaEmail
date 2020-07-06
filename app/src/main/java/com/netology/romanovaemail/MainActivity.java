@@ -29,16 +29,16 @@ public class MainActivity extends AppCompatActivity {
                boolean check = true;
 
                if (txtName.getText().length() == 0) {
-                   txtResult.setText("Введите ваше имя для оформления подписки");
+                   txtResult.setText(R.string.empty_name);
                    check =  false;
                }
                 if (txtEmail.getText().length() == 0) {
-                    txtResult.setText("Введите ваш Электронный адрес для оформления подписки");
+                    txtResult.setText(R.string.empty_mil);
                     check =  false;
                 }
 
                 if (check) {
-                    txtResult.setText("Подписка успешно оформлена для пользователя " + txtName.getText() + ", электронный адрес  " + txtEmail.getText());
+                    txtResult.setText(getString(R.string.res_message) + " " + txtName.getText() + ", " + getString(R.string.res_message_mail) + " " + txtEmail.getText());
                 }
             }
         });
